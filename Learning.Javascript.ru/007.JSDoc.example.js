@@ -6,7 +6,8 @@
  * @return {number} result of operation
  */
 function pow(x, n) {
-    if (n > 1)
-        return x * pow(n - 1);
+    if (n > 0)
+        return x * pow(x,n - 1);
     return 1;
 }
+console.log(pow(5,2));
