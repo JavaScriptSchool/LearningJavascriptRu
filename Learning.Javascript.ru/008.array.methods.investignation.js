@@ -32,4 +32,4 @@ var r = s.map(function(e){
     [7,8,9]
 ].reduceRight(function(a,b){
     return (a).concat(b.reverse());
-});
+},[]);
