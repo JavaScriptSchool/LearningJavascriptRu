@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="" />
     <ignored path="JSLearning.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -32,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="027.closures.army.of.shooters.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/027.closures.army.of.shooters.js">
+      <file leaf-file-name="028.closures.static.variable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/028.closures.static.variable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40106952" vertical-offset="0" max-vertical-offset="561">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.21390374" vertical-offset="0" max-vertical-offset="561">
+              <caret line="8" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -55,6 +53,7 @@
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/025.closures.buffer.with.methods.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/026.closures.methods.example.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/027.closures.army.of.shooters.js" />
+        <option value="$PROJECT_DIR$/Learning.Javascript.ru/028.closures.static.variable.js" />
       </list>
     </option>
   </component>
@@ -408,12 +407,12 @@
       <created>1421753982618</created>
       <option name="number" value="Default" />
       <updated>1421753982618</updated>
-      <workItem from="1421944275027" duration="5130000" />
+      <workItem from="1421944275027" duration="7300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5130000" />
+    <option name="totallyTimeSpent" value="7300000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -540,6 +539,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40106952" vertical-offset="0" max-vertical-offset="561">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/028.closures.static.variable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21390374" vertical-offset="0" max-vertical-offset="561">
+          <caret line="8" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
