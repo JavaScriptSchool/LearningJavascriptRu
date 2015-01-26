@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="" />
     <ignored path="JSLearning.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -32,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="034.objects.summator.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/034.objects.summator.js">
+      <file leaf-file-name="035.objects.adder.method.and.property.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/035.objects.adder.method.and.property.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34759358" vertical-offset="0" max-vertical-offset="561">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.37433156" vertical-offset="0" max-vertical-offset="561">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -63,6 +61,7 @@
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/032.chain.calls.realisation.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/033.objects.summator.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/034.objects.summator.js" />
+        <option value="$PROJECT_DIR$/Learning.Javascript.ru/035.objects.adder.method.and.property.js" />
       </list>
     </option>
   </component>
@@ -422,12 +421,12 @@
       <option name="number" value="Default" />
       <updated>1421753982618</updated>
       <workItem from="1421944275027" duration="12587000" />
-      <workItem from="1422262955506" duration="3101000" />
+      <workItem from="1422262955506" duration="3689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15688000" />
+    <option name="totallyTimeSpent" value="16276000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -611,6 +610,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34759358" vertical-offset="0" max-vertical-offset="561">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/035.objects.adder.method.and.property.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37433156" vertical-offset="0" max-vertical-offset="561">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
