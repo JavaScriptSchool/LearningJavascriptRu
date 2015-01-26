@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="" />
+    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="JSLearning.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -30,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="035.objects.adder.method.and.property.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/035.objects.adder.method.and.property.js">
+      <file leaf-file-name="036.objects.vars.overlap.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/036.objects.vars.overlap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37433156" vertical-offset="0" max-vertical-offset="561">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.24064171" vertical-offset="0" max-vertical-offset="561">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -62,6 +64,7 @@
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/033.objects.summator.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/034.objects.summator.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/035.objects.adder.method.and.property.js" />
+        <option value="$PROJECT_DIR$/Learning.Javascript.ru/036.objects.vars.overlap.js" />
       </list>
     </option>
   </component>
@@ -421,12 +424,12 @@
       <option name="number" value="Default" />
       <updated>1421753982618</updated>
       <workItem from="1421944275027" duration="12587000" />
-      <workItem from="1422262955506" duration="3689000" />
+      <workItem from="1422262955506" duration="4170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16276000" />
+    <option name="totallyTimeSpent" value="16757000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -542,6 +545,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61497325" vertical-offset="0" max-vertical-offset="561">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,6 +622,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37433156" vertical-offset="0" max-vertical-offset="561">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/036.objects.vars.overlap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24064171" vertical-offset="0" max-vertical-offset="561">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding />
         </state>
       </provider>
