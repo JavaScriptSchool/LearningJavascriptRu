@@ -18,3 +18,9 @@ function joinApply(){
 }
 console.log(joinApply());
 console.log(joinApply(1,2,5,'2312'));
+
+function sliceJoinArguments(){
+    var args = [].join.call(arguments,'+');
+    return args;
+}
+console.log(sliceJoinArguments(1,2,5,'2312'));
