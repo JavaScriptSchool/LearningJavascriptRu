@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6f7b7af6-0fc1-4f89-9885-1e8a181e8405" name="Default" comment="" />
     <ignored path="JSLearning.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -32,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="039.redirect.function.call.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/039.redirect.function.call.js">
+      <file leaf-file-name="040.doubling decorator.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/040.doubling decorator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20361991" vertical-offset="0" max-vertical-offset="663">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.09049774" vertical-offset="0" max-vertical-offset="663">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,6 +67,7 @@
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/037.object.calc.constructor.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/038.method.borrowing.js" />
         <option value="$PROJECT_DIR$/Learning.Javascript.ru/039.redirect.function.call.js" />
+        <option value="$PROJECT_DIR$/Learning.Javascript.ru/040.doubling decorator.js" />
       </list>
     </option>
   </component>
@@ -431,12 +430,12 @@
       <workItem from="1421944275027" duration="12587000" />
       <workItem from="1422262955506" duration="4409000" />
       <workItem from="1422302042488" duration="123000" />
-      <workItem from="1422369625979" duration="5725000" />
+      <workItem from="1422369625979" duration="6316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22844000" />
+    <option name="totallyTimeSpent" value="23435000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -651,7 +650,15 @@
     <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/039.redirect.function.call.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20361991" vertical-offset="0" max-vertical-offset="663">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning.Javascript.ru/040.doubling decorator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09049774" vertical-offset="0" max-vertical-offset="663">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
