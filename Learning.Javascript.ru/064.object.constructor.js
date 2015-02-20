@@ -4,5 +4,5 @@ function Animal(name){
 }
 var animal = new Animal('cow');
 
-animal.canWalk;
-animal.name;
+console.log(animal.canWalk);
+console.log(animal.name);
