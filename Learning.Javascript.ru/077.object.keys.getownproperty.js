@@ -5,3 +5,5 @@ Object.defineProperty(obj,'bar',{
 });
 console.log(Object.keys(obj));
 console.log(Object.getOwnPropertyNames(obj));
+for (var p in obj)
+    console.log(p);
