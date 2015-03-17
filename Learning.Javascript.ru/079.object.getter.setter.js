@@ -31,5 +31,5 @@ console.log(roman);
 console.log(roman.name);
 roman.name = 'Name Surname';
 console.log(roman);
-Object.keys(roman);
-Object.getOwnPropertyNames(roman);
+console.log(Object.keys(roman));
+console.log(Object.getOwnPropertyNames(roman));
