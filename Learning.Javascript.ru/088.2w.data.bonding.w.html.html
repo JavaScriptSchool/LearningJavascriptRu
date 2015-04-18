@@ -1,0 +1,14 @@
+<input id="myInput"/>
+<script>
+    var user = {};
+    var htmlObject = document.getElementById('myInput');
+    Object.observe(user,function(changes){
+        changes.forEach(function(){
+            var fullName = (user.firstName||'')+' '+(user.lastName||'');
+            htmlObject.value=fullName;
+        });
+    });
+    user.firstName = 'Roman';
+    user.lastName ='Samokhin';
+    delete user.firstName;
+</script>
