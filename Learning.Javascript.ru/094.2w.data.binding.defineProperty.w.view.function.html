@@ -1,0 +1,20 @@
+<input id="myInput"/>
+<script>
+    function bindModelInput(object,property,element){
+        Object.defineProperty(object,property,{
+            get:function(){
+                return element.value;
+            },
+            set:function(newValue){
+                element.value = newValue;
+            },
+            configurable:true
+        });
+    }
+    var user = {};
+    var myElement = document.getElementById('myInput');
+    bindModelInput(user,'name',myElement);
+    user.name = 'Roman';
+    console.log('1 value: '+user.name);
+    myElement.value = 'Dasha';
+</script>
