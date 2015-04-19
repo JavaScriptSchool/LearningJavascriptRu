@@ -1,0 +1,13 @@
+<input id="myInput"/>
+<script>
+    function bindObjPropToDomElem(object,property,element){
+        Object.observe(object,function(changes){
+            changes.forEach(function(change){
+                element.value = object[property];
+            });
+        });
+    }
+    var user = {};
+    bindObjPropToDomElem(user,'name', document.getElementById('myInput'));
+    //user.name = Roman;
+</script>
