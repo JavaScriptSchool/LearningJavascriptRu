@@ -1,0 +1,23 @@
+<input id="myInput1"/>
+<input id="myInput2"/>
+<script>
+    var myElement1 = document.getElementById('myInput1');
+    var myElement2 = document.getElementById('myInput2');
+    var user = {};
+    Object.defineProperty(user,'name',{
+       get:function(){
+           return myElement1.value;
+       },
+       set:function(newValue){
+           myElement1.value=newValue;
+           myElement2.value=newValue;
+       },
+       configurable:true
+    });
+    myElement1.onchange=function(){
+        user.name=this.value;
+    };
+    myElement2.onchange=function(){
+        myElement1.onchange.call(myElement2);
+    }
+</script>
