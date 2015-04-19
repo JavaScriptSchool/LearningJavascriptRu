@@ -1,0 +1,14 @@
+<input id="myInput"/>
+<script>
+    var user={};
+    Object.defineProperty(user,'name',{
+        get:function(){
+            return document.getElementById('myInput').value;s
+        },
+        set:function(newValue){
+            document.getElementById('myInput').value = newValue;
+        },
+        configurable:true
+    });
+    user.name='Roman';
+</script>
