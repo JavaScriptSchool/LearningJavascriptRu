@@ -1,0 +1,13 @@
+<input id="myInput"/>
+<script>
+    function bindDomElementToObjectProp(element, object, property){
+        element.onchange = function(){
+            object[property] = element.value;
+            console.log("new property is " + object[property]);
+        }
+    }
+    var myElement = document.getElementById('myInput');
+    var user = new Object();
+    bindDomElementToObjectProp(myElement,user,'name');
+    //console.log(user.name);
+</script>
