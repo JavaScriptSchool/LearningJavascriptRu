@@ -20,3 +20,18 @@ for (var n of fibonacci) {
     }
     console.log(n);
 }
+
+/*
+
+interface IteratorResult {
+    done: boolean;
+    value: any;
+}
+interface Iterator {
+    next(): IteratorResult;
+}
+interface Iterable {
+    [Symbol.iterator](): Iterator
+}
+
+ */
