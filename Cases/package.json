@@ -1,0 +1,15 @@
+{
+  "name": "cases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "001.recusive.sum.js",
+  "dependencies": {
+    "koa": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
