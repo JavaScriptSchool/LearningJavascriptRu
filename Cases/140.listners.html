@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <div id="f1"></div>
+        <div id="f2"></div>
+        <script>
+            var FriendService = {
+                listenes: [],
+                listen: function (obj) {
+                    this.listenes.push(obj)
+                },
+                fire: function (event) {
+                    this.listenes.forEach(function (listener) {
+                        listener.onEvent(event);
+                    });
+                }
+            };
+            function FriendWidget (domElement, type) {
+                this.type = type;
+                this.domElement = domElement;
+            }
+            FriendWidget.prototype.onEvent = function (firend) {
+                this.domElement.innerHTML = '<ul><li>' + firend.map(function (f) {
+                            return this.type ? f.name : f.lastName;
+                        },this).join('</li><li>') + '</li>';
+            };
+            var w1 = new FriendWidget(document.getElementById('f1'), true);
+            var w2 = new FriendWidget(document.getElementById('f2'), false);
+
+            FriendService.listen(w1);
+            FriendService.listen(w2);
+
+            FriendService.fire([{
+                name: "Roman",
+                lastName: "Sam"
+            },
+                {
+                    name: "Bob",
+                    lastName: "Parker"
+                }]);
+        </script>
+    </body>
+</html>
